@@ -37,14 +37,14 @@ body {
 .plan--highlighted {
   background-color: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, .5)
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
   background-color: white;
   color: green;
   padding: 8px;
-  box-shadow: 4px 1px 5px 0px rgb(0, 0, 0, .33);
+  box-shadow: 4px 1px 5px 0px rgb(0, 0, 0, 0.33);
   border-radius: 15px;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .plan__price {
-  color: rgb(133, 133, 133)
+  color: rgb(133, 133, 133);
 }
 
 .plan--highlighted .plan__title {
@@ -68,7 +68,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center
+  text-align: center;
 }
 
 .plan__feature {
