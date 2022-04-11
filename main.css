@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+#plans {
+  text-align: center;
+}
+
 #product-overview {
   background: url("./freedom.jpg");
   width: 100%;
