@@ -118,13 +118,6 @@ body {
   display: block;
 }
 
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 70px);
-  vertical-align: middle;
-}
-
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
@@ -135,6 +128,43 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
+}
+
+.key-feature__list {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  height: 128px;
+  width: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  /* this is a trick for centering things horizontally   */
+  margin: 0 auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 70px);
+  vertical-align: middle;
 }
 
 .main-nav__items {
@@ -173,34 +203,4 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
-}
-
-.key-feature__list {
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
-.key-feature__image {
-  background: #ffcede;
-  height: 128px;
-  width: 128px;
-  border: 2px solid #424242;
-  border-radius: 50%;
-  /* this is a trick for centering things horizontally   */
-  margin: 0 auto;
-}
-
-.key-feature__description {
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
 }
