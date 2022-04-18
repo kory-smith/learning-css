@@ -1,0 +1,51 @@
+.plan-callout > a {
+  text-decoration: none;
+}
+
+.plan-callout:first-of-type {
+	margin-top: 40px;
+}
+
+.plan-callout {
+  width: 66%;
+  margin: 20px 0;
+  padding: 20px;
+  border: 5px rgb(28, 69, 39) solid;
+}
+
+.plus {
+  background: rgb(204, 254, 213);
+}
+
+.free {
+  background: rgb(229, 250, 233);
+}
+
+.premium {
+  background: rgb(28, 69, 39);
+}
+
+.plan-callout:hover {
+  border: 5px red solid;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.plan-callout h1 {
+  color: black;
+}
+
+.premium h1 {
+  color: white;
+}
+
+.plan-callout h2 {
+  color: rgb(133, 136, 132);
+}
+
+.plan-callout p {
+  color: rgb(52, 65, 63);
+  background-color: rgb(254, 254, 254);
+  padding: 12px;
+  border: 2px green solid;
+  font-size: large;
+}
