@@ -70,7 +70,7 @@ body {
   margin: 0 16px;
 }
 
-.main-footer__link > a {
+.main-footer__link>a {
   color: white;
   text-decoration: none;
 }
@@ -88,7 +88,7 @@ body {
   display: block;
 }
 
-.main-header > div {
+.main-header>div {
   display: inline-block;
   vertical-align: middle;
 }
