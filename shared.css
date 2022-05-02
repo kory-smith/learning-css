@@ -86,7 +86,7 @@ body {
   background: #2ddf5c;
   padding: 8px 16px;
   display: block;
-  z-index: 1;
+  z-index: 10;
 }
 
 .main-header>div {
