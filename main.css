@@ -1,24 +1,14 @@
-#plans {
-  text-align: center;
-}
+
 
 #product-overview {
-  /* background: url("./freedom.jpg"); */
+  /* background: url("freedom.jpg"); */
   background-image: url("freedom.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: 528px;
   padding: 10px;
+  margin-top: 43px;
   position: relative;
-}
-
-#product-overview h1 {
-  color: white;
-  font-family: "Anton", sans-serif;
-  position: absolute;
-  top: 45%;
-  left: 2%;
 }
 
 .section-title {
@@ -26,8 +16,22 @@
   text-align: center;
 }
 
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .plan {
-  background-color: #d5ffdc;
+  background: #d5ffdc;
   text-align: center;
   padding: 16px;
   margin: 8px;
@@ -37,22 +41,17 @@
 }
 
 .plan--highlighted {
-  background-color: #19b84c;
+  background: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
-}
-
-.plan__list {
-  width: 80%;
-  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
-  background-color: white;
-  color: green;
+  background: white;
+  color: #19b84c;
   padding: 8px;
-  box-shadow: 4px 1px 5px 0px rgb(0, 0, 0, 0.33);
-  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 .plan__title {
@@ -60,7 +59,7 @@
 }
 
 .plan__price {
-  color: rgb(133, 133, 133);
+  color: #858585;
 }
 
 .plan--highlighted .plan__title {
@@ -75,11 +74,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .plan__feature {
-  padding: 8px 0px;
+  margin: 8px 0;
 }
 
 #key-features {
@@ -97,6 +95,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .key-feature {
@@ -107,12 +106,11 @@
 
 .key-feature__image {
   background: #ffcede;
-  height: 128px;
   width: 128px;
+  height: 128px;
   border: 2px solid #424242;
   border-radius: 50%;
-  /* this is a trick for centering things horizontally   */
-  margin: 0 auto;
+  margin: auto;
 }
 
 .key-feature__description {
@@ -121,3 +119,8 @@
   color: white;
   font-size: 20px;
 }
+
+/* h1 {
+  font-family: sans-serif;
+} */
+
